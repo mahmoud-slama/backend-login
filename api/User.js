@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 
 // mongodb user model
-const User = require("./../models/User");
+const User = require("../models/User");
 
 // Password handler
 const bcrypt = require("bcrypt");
